@@ -1,24 +1,26 @@
 # crud
-
-## Project setup
+src/
+├── assets/                      # Archivos estáticos (CSS, imágenes, etc.)
+├── components/                  # Componentes de Vue
+│   ├── CrudComponent.vue        # login de usuario
+│   ├── HelloWorld.vue           # panel principal
+├── App.vue                      # Componente raíz de la aplicación
+├── main.js                      # Punto de entrada principal
+└── router.js                    # Configuración de rutas de la aplicación
 ```
+### 2. Instalar dependencias
+
+```bash
 npm install
 ```
 
-### Compiles and hot-reloads for development
-```
+### 3. Ejecutar la aplicación
+
+```bash
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+La aplicación estará disponible en `http://localhost:8080`.
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+
